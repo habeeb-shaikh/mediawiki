@@ -14,7 +14,7 @@ Create a JAVA Service that has two main parts:
 4. Create an endpoint that returns statistics about documents including, min size, largest size,
 median size and same for word count. 
 
-# Chechout and run project
+# Checkout and Run Project:-
   Checkout project using git command:-
 		$ git init
 		$ git clone  git@github.com:habeeb-shaikh/mediawiki.git
