@@ -19,7 +19,7 @@ Rest endpoints:-
 http://localhost:8080/wiki/storearticles?country=jordan
 
 2. Retrive stored articles based on title or snippet
-http://localhost:8080/wiki/searcharticle?titile=jordan
+http://localhost:8080/wiki/searcharticle?title=jordan
 http://localhost:8080/wiki/searcharticle?snippet=officially%20the%20Hashemite%20Kingdom%20of.
 
 3.get Largest article as per word count.
