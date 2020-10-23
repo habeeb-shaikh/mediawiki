@@ -46,3 +46,6 @@ http://localhost:8080/wiki/smallestarticle?country=jordan
 
 5.get statics of size and word count like min/max/median.
 http://localhost:8080/wiki/articlestatics?country=jordan
+
+# Rest endpoints Result:-
+ Added output result captured screenshot under doc directory.
