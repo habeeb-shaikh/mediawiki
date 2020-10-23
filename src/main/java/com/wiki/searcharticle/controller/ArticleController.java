@@ -308,13 +308,13 @@ public class ArticleController {
         JsonNode node=null;
         ObjectMapper mapper = new ObjectMapper();
         node= mapper.valueToTree(details);
-        if(null == node)
+        if(node.isEmpty())
         {
-            logger.warning("JSON Node is null");
+            logger.warning("JSON Node is empty");
         }
         else
         {
-            logger.info("Json Node return Successfully.");
+            logger.info("Json Node return data Successfully.");
         }
         return node;
     }
@@ -349,7 +349,7 @@ public class ArticleController {
         JsonNode node= null;
         restTemplate = new RestTemplate();
         node  =restTemplate.getForObject(endpoint, JsonNode.class);
-        if(null == node)
+        if(node.isEmpty())
         {
             logger.warning("No Record Found in Web Request");
         }
